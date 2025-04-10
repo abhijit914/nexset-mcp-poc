@@ -76,11 +76,3 @@ class VectorDBNexsetHandler:
                 "error": "There was an error querying the Sync API, please verify that Nexset is SyncAPI compatible.",
                 "detail": str(e),
             }
-
-    async def _validate_nexset(self):
-        """
-        Validate that the Nexset is of VectorDB type andSyncAPI compatible.
-        """
-        if not self.sync_api_url or not self.vector_embeddings:
-            return False
-        return True
