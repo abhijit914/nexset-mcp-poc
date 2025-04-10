@@ -1,0 +1,18 @@
+{
+    "mcpServers": {
+        "nexset-mcp-poc": {
+          "command": "uv",
+          "args": [
+            "--directory",
+            "/Users/abhijitbharadwaj/Desktop/nexset-mcp-poc",
+            "run",
+            "main.py"
+          ],
+          "env": {
+            "OPENAI_API_KEY": "<OPENAI_API_KEY>",
+            "NEXLA_SERVICE_KEY": "<NEXLA_SERVICE_KEY>",
+            "NEXSET_ID": "113071"
+          }
+        }
+    }
+  }
